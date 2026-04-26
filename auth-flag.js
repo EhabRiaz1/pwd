@@ -7,4 +7,4 @@
  * loads this file from the booth URL — edit, commit, and deploy this repo; no
  * main-site deploy needed to change the switch (after cache updates — see index.html).
  */
-window.__COTTON_SITE_AUTH = false;
+window.__COTTON_SITE_AUTH = true;
