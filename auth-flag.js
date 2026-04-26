@@ -3,7 +3,8 @@
  * - true  = require 12h key before showing the home page
  * - false = home page is public
  *
- * Edit this file and deploy this repo. The main Cotton site must load it via
- * the script URL in index.html (same origin as the booth deployment).
+ * Deploy this with your key booth (e.g. GitHub Pages / Vercel). The main site
+ * loads this file from the booth URL — edit, commit, and deploy this repo; no
+ * main-site deploy needed to change the switch (after cache updates — see index.html).
  */
 window.__COTTON_SITE_AUTH = false;
